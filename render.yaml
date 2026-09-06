@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: promocion-social-cartagena
+    runtime: static
+    buildCommand: echo "Sitio estático listo"
+    staticPublishPath: ./dist
+    pullRequestPreviewsEnabled: true
